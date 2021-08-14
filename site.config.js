@@ -9,7 +9,7 @@ module.exports = {
   // basic site info (required)
   name: 'LinkBD',
   domain: 'https://duohao.notion.site/LinkBD-32372e0958e54b7aa0cea433c71032c2',
-  author: 'ResidualBlood By Skyey Snow',
+  author: 'ResidualBlood By SkyeySnow',
 
   // open graph metadata (optional)
   description: 'This is for LinkBD',
