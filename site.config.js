@@ -1,11 +1,3 @@
-/$$
- $ @Author       : ResidualBlood
- $ @Date         : 2021-08-14 13:32:50
- $ @LastEditors  : ResidualBlood
- $ @LastEditTime : 2021-08-14 13:43:45
- $ @Description  : 
- $ @FilePath     : /site.config.js
- $/
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
   rootNotionPageId: 'LinkBD-32372e0958e54b7aa0cea433c71032c2',
