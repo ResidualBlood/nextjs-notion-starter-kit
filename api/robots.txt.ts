@@ -1,3 +1,11 @@
+/*
+ * @Author       : ResidualBlood
+ * @Date         : 2021-08-14 13:32:50
+ * @LastEditors  : ResidualBlood
+ * @LastEditTime : 2021-10-21 12:44:06
+ * @Description  : 
+ * @FilePath     : /api/robots.txt.ts
+ */
 import { NextApiRequest, NextApiResponse } from 'next'
 
 import { host } from '../lib/config'
@@ -17,7 +25,7 @@ export default async (
   )
   res.setHeader('Content-Type', 'text/plain')
   res.write(`User-agent: *
-Sitemap: ${host}/api/sitemap.xml
+  Disallow: /
 `)
   res.end()
 }
