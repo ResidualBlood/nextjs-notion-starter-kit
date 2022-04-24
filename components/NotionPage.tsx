@@ -28,14 +28,8 @@ import { Page404 } from './Page404'
 import { PageHead } from './PageHead'
 import { PageAside } from './PageAside'
 import { Footer } from './Footer'
-<<<<<<< HEAD
-import { PageSocial } from './PageSocial'
-// import { GitHubShareButton } from './GitHubShareButton'
-import { ReactUtterances } from './ReactUtterances'
-=======
 import { NotionPageHeader } from './NotionPageHeader'
 import { GitHubShareButton } from './GitHubShareButton'
->>>>>>> upstream/main
 
 import styles from './styles.module.css'
 
@@ -292,12 +286,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         footer={footer}
       />
 
-<<<<<<< HEAD
-      {/* <GitHubShareButton /> */}
-    </TwitterContextProvider>
-=======
       <GitHubShareButton />
     </>
->>>>>>> upstream/main
   )
 }
